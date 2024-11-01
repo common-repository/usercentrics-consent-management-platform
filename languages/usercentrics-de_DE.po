@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Usercentrics CMP\n"
+"POT-Creation-Date: 2020-04-22 15:50+0200\n"
+"PO-Revision-Date: 2020-04-22 15:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: usercentrics.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-usercentrics-admin.php:118
+#: admin/class-usercentrics-admin.php:119
+msgid "Usercentrics CMP"
+msgstr "Usercentrics CMP"
+
+#: admin/class-usercentrics-admin.php:155
+msgid "Get Support"
+msgstr "Support"
+
+#: admin/class-usercentrics-admin.php:174
+msgid "General"
+msgstr "Allgemein"
+
+#: admin/class-usercentrics-admin.php:176
+msgid "Usercentrics Settings ID"
+msgstr "Usercentrics Settings ID"
+
+#: admin/class-usercentrics-admin.php:181
+msgid "Google Tag Manager"
+msgstr "Google Tag Manager"
+
+#: admin/class-usercentrics-admin.php:183
+msgid "Google Tag Manager Container ID"
+msgstr "Google Tag Manager Container-ID"
+
+#: admin/class-usercentrics-admin.php:188
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: admin/class-usercentrics-admin.php:240
+msgid ""
+"Please enter your personal Usercentrics Settings ID. You will find it in "
+"your <a href=\"https://admin.usercentrics.com/#/\" target=\"_blank"
+"\">Usercentrics Dashboard</a>."
+msgstr ""
+"Bitte geben Sie Ihre persönliche Usercentrics-Settings-ID ein. Sie finden "
+"diese in Ihrem <a href=\"https://admin.usercentrics.com/#/\" target=\"_blank"
+"\">Usercentrics Dashboard</a>."
+
+#: admin/class-usercentrics-admin.php:242
+msgid "Please note:"
+msgstr "Bitte beachten:"
+
+#: admin/class-usercentrics-admin.php:242
+msgid ""
+"Make sure that in your settings the correct domain is stored (under "
+"“General” -> “Domain”). Only if this is ensured, the Usercentrics script can "
+"be executed on your website."
+msgstr ""
+"Stellen Sie sicher, dass in Ihren Einstellungen die richtige Domain "
+"hinterlegt ist (unter „Allgemein“ -> „Domain“). Nur wenn dies gewährleistet "
+"ist, kann das Usercentrics-Skript auf Ihrer Website ausgeführt werden."
+
+#: admin/class-usercentrics-admin.php:244
+msgid "Important:"
+msgstr "Wichtig:"
+
+#: admin/class-usercentrics-admin.php:244
+msgid ""
+"If you are using any kind of minification plugin (like WP Rocket or "
+"Autoptimize) please make sure to exclude <strong>app.usercentrics.eu/latest/"
+"main.js</strong> from being combined or compressed. Please just leave it "
+"untouched."
+msgstr ""
+"Wenn Sie irgendeine Art von Minifikations-Plugin (wie WP Rocket oder "
+"Autoptimize) verwenden, schließen Sie bitte <strong>app.usercentrics.eu/"
+"latest/main.js</strong> von der Kombination oder Komprimierung aus. Bitte "
+"lassen Sie es einfach unberührt."
+
+#: admin/class-usercentrics-admin.php:256
+msgid ""
+"To be GDPR/CCPA compliant it is crucial to embed the Google Tag Manager in a "
+"specific manner. Therefore you will have to remove any existing Google Tag "
+"Manager inclusions before using this plugin."
+msgstr ""
+"Um DSGVO/CCPA-konform zu sein, ist es wichtig, den Google Tag Manager auf "
+"eine bestimmte Art und Weise einzubetten. Daher müssen Sie alle vorhandenen "
+"Google Tag Manager-Implementierungen entfernen, bevor Sie dieses Plugin "
+"verwenden."
+
+#: admin/class-usercentrics-admin.php:269
+msgid ""
+"If you want to list tags configured within Usercentrics for example on your "
+"privacy policy page you can just use our shortcode. Just copy and paste the "
+"shortcode below to your desired page."
+msgstr ""
+"Wenn Sie innerhalb von Usercentrics konfigurierte Tags z.B. auf Ihrer "
+"Datenschutzseite auflisten möchten, können Sie unseren Shortcode verwenden. "
+"Kopieren Sie einfach den untenstehenden Shortcode und fügen Sie ihn auf "
+"Ihrer gewünschten Seite ein."
+
+#: admin/class-usercentrics-admin.php:270
+msgid "[uc-embed layout=\"1\" data=\"all\"]"
+msgstr "[uc-embed layout=\"1\" data=\"all\"]"
+
+#: admin/class-usercentrics-admin.php:271
+msgid ""
+"For further information on which values to apply for the attributes layout "
+"and data please visit the"
+msgstr ""
+"Weitere Informationen darüber, welche Werte für die Attribute layout und "
+"data verwendet werden können, finden Sie in der"
+
+#: admin/class-usercentrics-admin.php:271
+msgid "Usercentrics Documentation"
+msgstr "Usercentrics Dokumentation"
+
+#: admin/partials/usercentrics-admin-display.php:17
+msgid "Usercentrics Settings"
+msgstr "Usercentrics Einstellungen"
+
+#. Plugin URI of the plugin/theme
+msgid "https://webnique.de/plugins/usercentrics"
+msgstr "https://webnique.de/plugins/usercentrics"
+
+#. Description of the plugin/theme
+msgid "Embed the Usercentrics Consent Management Platform on your website."
+msgstr ""
+"Betten Sie die Usercentrics Consent Management Platform auf Ihrer Website "
+"ein."
+
+#. Author of the plugin/theme
+msgid "Webnique"
+msgstr "WEBNIQUE"
+
+#. Author URI of the plugin/theme
+msgid "https://webnique.de"
+msgstr "https://webnique.de"
+
+#~ msgid "Please enter your settings id."
+#~ msgstr "Bitte geben Sie Ihre Settings-ID ein."
